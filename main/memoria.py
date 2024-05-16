@@ -45,3 +45,4 @@ class Memoria:
     def obtener_memoria_ocupada(self):
         memoria_ocupada = self.tamaño_total - self.obtener_memoria_libre()
         return memoria_ocupada
+
